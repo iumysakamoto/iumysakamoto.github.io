@@ -225,3 +225,6 @@ function addClass() {
   const  element = document.getElementById("menu");
   element.classList.toggle('actives');
 }
+
+
+

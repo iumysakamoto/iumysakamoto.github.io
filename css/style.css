@@ -978,7 +978,7 @@ code { font-family: Consolas; }
 
 .baby {
 	width: 300px;
-	margin-left: 150px;
+	margin-left: 50px;
 }
 
 .kid {
@@ -1110,4 +1110,22 @@ code { font-family: Consolas; }
 	transform-origin: 0% 0%;
 	transform: translate(-100%, 0);
 	transition: transform 1s;
+}
+
+
+.bar-container, .bar {  
+	height: 5px;  
+	border-radius: 5px;
+	content: "";
+}
+
+.bar-container {
+	background-color: black;
+}
+
+.pct {
+	position: absolute;
+	top: -6px;
+	right: 0;
+	transition: opacity 0.3s linear;
 }
