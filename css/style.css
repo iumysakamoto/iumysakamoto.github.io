@@ -869,7 +869,7 @@ code { font-family: Consolas; }
 
 	.dv-side {
 		float: left;
-		width: 300px;
+		width: 240px;
 		min-height: 1px;
 	}
 
@@ -979,14 +979,17 @@ code { font-family: Consolas; }
 .baby {
 	width: 300px;
 	margin-left: 50px;
+	transition: all 0.75s ease-in-out;
 }
 
 .kid {
 	width: 250px;
+	transition: all 0.75s ease-in-out;
 }
 
 .young {
 	width: 550px;
+	transition: all 0.75s ease-in-out;
 }
 
 .baby-effect {
@@ -1057,12 +1060,13 @@ code { font-family: Consolas; }
 [data-control="slide"] {
 	display: flex;
 	justify-content: center;
+	margin: 16px;
 }
 
 [data-control="slide"] li a {
 	display: block;
-	width: 16px;
-	height: 16px;
+	width: 12px;
+	height: 12px;
 	background: #9e9e9e;
 	border-radius: 50%;
 	overflow: hidden;
@@ -1112,3 +1116,30 @@ code { font-family: Consolas; }
 	transition: transform 1s;
 }
 
+.paper-size {
+	width: 800px;
+	transition: all 0.75s ease-in-out;
+}
+
+@media (max-width: 1300px) {
+	.baby {
+		width: 200px;
+		transition: all 0.75s ease-in-out;
+	}
+	
+	.kid {
+		margin-top: 32px;
+		width: 160px;
+		transition: all 0.75s ease-in-out;
+	}
+	
+	.young {
+		width: 350px;
+		transition: all 0.75s ease-in-out;
+	}
+
+	.paper-size {
+		width: 750px;
+		transition: all 0.75s ease-in-out;
+	}
+}
